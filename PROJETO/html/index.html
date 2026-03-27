@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Esnupi Lovers | Home</title>
+
+  <meta name="description" content="Esnupi lovers: lançamentos, coleções, novidades e galeria. Página inicial responsiva com Bootstrap." />
+  <meta name="author" content="Esnupis" />
+
+  <link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="../css/style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Abel&family=Noto+Sans+Egyptian+Hieroglyphs&family=Open+Sans:wght@500&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <a href="#conteudo" class="visually-hidden-focusable">Pular para o conteúdo principal</a>
+
+  <!-- Início Menu -->
+  <header id="header">
+    <a id="logo" href="./index.html" aria-label="Ir para a página inicial">
+      <img src="../img/logo.png" alt="Logo Esnupi lovers" />
+    </a>
+
+    <nav id="nav" aria-label="Menu principal">
+      <button
+        aria-label="Abrir Menu"
+        id="btn-mobile"
+        aria-haspopup="true"
+        aria-controls="menu"
+        aria-expanded="false"
+        type="button"
+      >
+        <span id="hamburger" aria-hidden="true"></span>
+      </button>
+
+      <ul id="menu" role="menu">
+        <li role="none"><a class="linkMenu" role="menuitem" href="./index.html" aria-current="page">Home</a></li>
+        <li role="none"><a class="linkMenu" role="menuitem" href="./quemsomos.html">Quem Somos</a></li>
+        <li role="none"><a class="linkMenu" role="menuitem" href="./produtos.html">Produtos</a></li>
+        <li role="none"><a class="linkMenu" role="menuitem" href="./videos.html">Vídeos</a></li>
+        <li role="none"><a class="linkMenu" role="menuitem" href="./contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- Fim Menu -->
+
+  <!-- Conteúdo principal -->
+  <main id="conteudo">
+    <section aria-label="Texto alternativo" id="hieroglyph"></section>
+
+    <!-- Carousel Página Principal -->
+    <section aria-label="Destaques em banner">
+      <div
+        id="carouselExampleInterval"
+        class="carousel slide"
+        data-bs-ride="carousel"
+        data-bs-pause="none"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="600">
+            <img
+              src="../img/banner1.jpg"
+              class="d-block w-100"
+              alt="Banner de destaque 1"
+            />
+          </div>
+
+          <div class="carousel-item" data-bs-interval="600">
+            <img
+              src="../img/banner2.jpg"
+              class="d-block w-100"
+              alt="Banner de destaque 2"
+              loading="lazy"
+            />
+          </div>
+
+          <div class="carousel-item" data-bs-interval="600">
+            <img
+              src="../img/banner3.jpg"
+              class="d-block w-100"
+              alt="Banner de destaque 3"
+              loading="lazy"
+            />
+          </div>
+        </div>
+
+        <button
+          class="carousel-control-prev"
+          data-bs-target="#carouselExampleInterval"
+          type="button"
+          data-bs-slide="prev"
+          aria-label="Voltar banner"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+
+        <button
+          class="carousel-control-next"
+          data-bs-target="#carouselExampleInterval"
+          type="button"
+          data-bs-slide="next"
+          aria-label="Avançar banner"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Próximo</span>
+        </button>
+      </div>
+    </section>
+    <!-- Fim Carousel -->
+  
+    <!-- Inicio banner-->
+     <section class="section-banner-home" aria-label="Chamada principal">
+        <div class="container-fluid">
+            <div class="row m-0">
+            <div class="col-12 col-md-6">
+                <figure>
+                    <img src="../img/banner.avif" class="img-fluid" alt="Banner: lançamentos de Esnupis em 2026" loading="lazy">
+                </figure>
+            </div>
+            <div class="col-12 col-md-6 d-flex align-items-center">
+            
+                <section class="texto-banner d-none d-md-block" aria-label="Mensagem Principal">
+            <h1> Conheça os lançamentos de Esnupis em 2026!</h1>
+            <p class="d-none d-md-block">
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi dicta ea autem quos fuga quasi cum suscipit ipsum fugiat minus aliquam alias odio neque libero quis iure quae, recusandae nostrum.
+                    
+            </p>
+            <a href="#" aria-label="Saiba mais sobre nossos lançamentos"> Saiba mais </a>
+                </section>
+            </div>
+        </div>
+    </div>
+     </section>
+     <!--Fim banner-->
+
+     <!--Inicio destaque-->
+     <section class="destaque">
+        <div class="container">
+            <header class="row d-flex justify-content-center">
+                <div class="col-12 text-center">
+                    <h2>Conheça as coleções de Esnupis</h2>
+                    <p>
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates odit itaque tenetur eaque reiciendis voluptatibus. Iure aliquam sint repudiandae. Corporis labore dicta quia veritatis natus vero consequuntur quas minima nemo!
+                    </p>
+                </div>
+            </header>
+
+            <!--Inicio destaque 01-->
+            <div class="row">
+                <div class="col-6 col-md-2 pr-0">
+                    <a href="./produtos.html" aria-label="Ver detalhes do esnupi musico">
+                        <img src="../img/destaque-01.jpg" alt="Esnupi musico" class="img-fluid" loading="lazy">
+                    </a>
+                    <figcaption>ESNUPI MUSICO <br> 2001</figcaption>
+                </div>
+            </div>
+        </div>
+     </section>
+<!--Início Novidades-->
+
+<!-- Fim Novidades-->
+<!--Galeria-->
+<section class="galeria d-flex align-items-center" aria-label="Galeria de Imagens">
+  <div class="container">
+     <div class="row">
+      <div class="col-12">
+      <section class="texto-galeria" aria-label="Introdução a galeria">
+        <h2>Conheça nossa galeria de fotos reliquias do snoopy</h2>
+        <p>
+          Lorem ipsum
+        </p>
+      </section>
+      </div>
+
+      <!--Inicio imagem 1-->
+      <div class="gallery col-6 col-md-3">
+        <img src="../img/galeria-01.png" class="img-fluid" alt="Imagem reliquias" loading="lazy">
+      </div>
+      <!--Inicio imagem 2-->
+      <div class="gallery col-6 col-md-3">
+        <img src="../img/galeria-02.png" class="img-fluid" alt="Imagem reliquias" loading="lazy">
+      </div>
+      <!--Inicio imagem 3-->
+      <div class="gallery col-6 col-md-3">
+        <img src="../img/galeria-03.png" class="img-fluid" alt="Imagem reliquias" loading="lazy">
+      </div>
+      <!--Inicio imagem 4-->
+      <div class="gallery col-6 col-md-3">
+        <img src="../img/galeria-04.png" class="img-fluid" alt="Imagem reliquias" loading="lazy">
+      </div>
+      <!--Inicio imagem 5-->
+      <div class="gallery col-6 col-md-3">
+        <img src="../img/galeria-05.png" class="img-fluid" alt="Imagem reliquias" loading="lazy">
+      </div>
+      <!--Inicio imagem 6-->
+      <div class="gallery col-6 col-md-3">
+        <img src="../img/galeria-06.png" class="img-fluid" alt="Imagem reliquias" loading="lazy">
+      </div>
+      <!--Inicio imagem 7-->
+      <div class="gallery col-6 col-md-3">
+        <img src="../img/galeria-07.png" class="img-fluid" alt="Imagem reliquias" loading="lazy">
+      </div>
+      <!--Inicio imagem 8-->
+      <div class="gallery col-6 col-md-3">
+        <img src="../img/galeria-08.png" class="img-fluid" alt="Imagem reliquias" loading="lazy">
+      </div>
+      <!--Inicio imagem 9-->
+      <div class="gallery col-6 col-md-3">
+        <img src="../img/galeria-09.png" class="img-fluid" alt="Imagem reliquias" loading="lazy">
+      </div>
+      <!--Inicio imagem 10-->
+      <div class="gallery col-6 col-md-3">
+        <img src="../img/galeria-10.png" class="img-fluid" alt="Imagem reliquias" loading="lazy">
+      </div>
+      <!--Inicio imagem 11-->
+      <div class="gallery col-6 col-md-3">
+        <img src="../img/galeria-11.png" class="img-fluid" alt="Imagem reliquias" loading="lazy">
+      </div>
+      <!--Inicio imagem 12-->
+      <div class="gallery col-6 col-md-3">
+        <img src="../img/galeria-12.png" class="img-fluid" alt="Imagem reliquias" loading="lazy">
+      </div>
+
+     </div>
+  </div>
+</section>
+<!--Fim galeria-->
+<!--whatsapp botao flutuante-->  
+  <aside class="whatsapp" aria-label="Contato rápido via whatsapp">
+    <div class="container-grid logo-whats">
+      <a href="https://wa.link/x1zbu1" target="_blank" rel="noopener noreferrer" aria-label="Abrir conversa no whatsapp">
+        <img class="pulse" src="../img/logo-whats.webp" alt="Icone whatsapp" />
+      </a>
+    </div>
+  </aside> 
+<!--Fim whatsapp (botão flutuante)-->
+
+<!-- aula 05 | 20/03/2026-->
+
+<!-- Inicio footer-->
+
+  <script type="text/javascript" src="../bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
